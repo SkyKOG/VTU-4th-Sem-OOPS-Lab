@@ -19,7 +19,7 @@ class MATRIX {
 
 	public : 
 		void input();
-		int operator ==(MATRIX);
+		bool operator ==(MATRIX);
 		MATRIX operator +(MATRIX);
 		MATRIX operator -(MATRIX);
 		friend void operator <<(ostream &,MATRIX &);
@@ -97,11 +97,11 @@ void MATRIX::input()
 	}
 }
 
-int MATRIX::operator==(MATRIX m2)
+bool MATRIX::operator==(MATRIX m2)
 {
 	if((row==m2.row)&&(col==m2.col))
-		return 1;
-	return 0;
+		return true;
+	return false;
 }
 
 MATRIX MATRIX::operator +(MATRIX m2)

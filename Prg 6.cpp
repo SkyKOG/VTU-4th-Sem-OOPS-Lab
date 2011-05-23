@@ -51,7 +51,7 @@ void main()
 			break;
 		case 4:exit(0);
 			break;
-		default:cout<<"Invalis Selection\n";
+		default:cout<<"Invalid Selection\n";
 		}
 		getch();
 	}
