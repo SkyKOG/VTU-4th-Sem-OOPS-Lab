@@ -7,6 +7,7 @@ Author SkyKOG
 #include <iostream>
 #include <Windows.h>
 #include <conio.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -21,9 +22,9 @@ class EMPLOYEE {
 		void display();
 };
 
-void main()
+int main()
 {   	
-	system("cls");
+	system("clear");
 	EMPLOYEE emp[20];
 	int n;
 	cout<<"Enter Number Of Employees : ";
@@ -40,6 +41,7 @@ void main()
 		emp[i].display();
 	}
 	
+	return 0;
 	getch();
 }
 

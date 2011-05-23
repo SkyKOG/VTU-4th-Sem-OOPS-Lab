@@ -1,5 +1,5 @@
 /**
-Lab Program 8
+Lab Program 13
 Operator Overloading & Copy Constructor - String Class
 Author SkyKOG
 */

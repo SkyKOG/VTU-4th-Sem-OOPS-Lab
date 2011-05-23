@@ -43,7 +43,7 @@ void main()
 	while(true)
 	{
 		system("cls");
-		printf("1. Insert\n2. Preorder\n3. Inorder\n4. Postorder\n5. Exit\n\nEnter Selection : ");
+		cout<<"1. Insert\n2. Preorder\n3. Inorder\n4. Postorder\n5. Exit\n\nEnter Selection : ";
 		cin>>ch;
 		switch(ch)
 		{
@@ -59,7 +59,7 @@ void main()
 			break;
 		case 5:exit(0);
 			break;
-		default:printf("Ivalid Selection");
+		default:cout<<"Invalid Selection";
 		}
 		getch();
 	}
@@ -85,16 +85,16 @@ void BIN_TREE::insertmain(struct node **q,int ele)
 	{
 		if(ele==(*q)->data)
 		{
-			printf("Duplication Not Allowed");
+			cout<<"Duplication Not Allowed";
 			getch();
 			return;
 		}
 		else
 		{
-		if(ele<((*q)->data))
-			insertmain(&((*q)->l),ele);
-		else
-			insertmain(&((*q)->r),ele);
+			if(ele<((*q)->data))
+				insertmain(&((*q)->l),ele);
+			else
+				insertmain(&((*q)->r),ele);
 		}
 	}
 	return;

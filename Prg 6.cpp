@@ -31,7 +31,7 @@ void main()
 	STACK s1;
 	int ch,ele;
 	
-	while(1)
+	while(true)
 	{
 		system("cls");
 		cout<<"1. Push\n2. Pop\n3. Display\n4. Exit\n\nEnter Your Choice : ";
@@ -51,7 +51,7 @@ void main()
 			break;
 		case 4:exit(0);
 			break;
-		default:cout<<"Invalid Selection\n";
+		default:cout<<"Invalis Selection\n";
 		}
 		getch();
 	}
