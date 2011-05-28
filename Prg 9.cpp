@@ -49,7 +49,7 @@ OCTAL::OCTAL(int x)
 
 int OCTAL::convert()
 {
-	int rem,sum=0,product=1,temp=num;
+	int sum=0,rem,product=1,temp=num;
 	while(temp>0)
 	{
 		rem=temp%8;

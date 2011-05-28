@@ -36,7 +36,7 @@ void main()
 		cin>>ch;
 		switch(ch)
 		{
-		case 1:cout<<"Enter Element to Insert : ";
+		case 1:cout<<"\nEnter Element to Insert : ";
 			cin>>ele;
 			obj.insert(ele);
 			break;
@@ -45,7 +45,7 @@ void main()
 			{
 				break;
 			}
-			cout<<"Element Deleted is : "<<ele;
+			cout<<"\nElement Deleted is : "<<ele;
 			break;
 		case 3:obj.display();
 			break;
@@ -94,8 +94,11 @@ void LIST::display()
 {
 	node *q;
 	if(p==NULL)
-		cout<<"Empty List";
-
+		{
+			cout<<"\nEmpty List";
+			return;
+		}
+	cout<<"\n\nCurrent List Status : ";
 	for(q=p ; q!=NULL ; q=q->link)
 		cout<<q->item<<" ";
 }

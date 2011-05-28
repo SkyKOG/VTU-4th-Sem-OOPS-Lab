@@ -104,9 +104,9 @@ void main()
 			avg(pobj,n);
 		}
 		else
-		{
-			cout<<"\nInvalid Selection";
-		}
+			{
+				cout<<"\nInvalid Selection";
+			}
 		getch();
 	}
 }
@@ -188,7 +188,7 @@ void avg(T &x,int n)
 /*
 License
 =======
-    Copyright Â© 2011 SkyKOG
+    Copyright © 2011 SkyKOG
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

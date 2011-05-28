@@ -47,11 +47,11 @@ void main()
 		case 2:s1 = --s1;
 			cout<<"\n"<<s1;
 			break;
-		case 3:cout<<s1;
+		case 3:cout<<"\n"<<s1;
 			break;
 		case 4:exit(0);
 			break;
-		default:cout<<"Invalis Selection\n";
+		default:cout<<"Invalid Selection\n";
 		}
 		getch();
 	}
@@ -123,18 +123,3 @@ License
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

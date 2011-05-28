@@ -27,7 +27,7 @@ void main( )
 	cout<<"===================================\n\n";
 	cout<<"Integer Array before sorting:\n";
 
-	for ( i = 0 ; i <= 9 ; i++ )
+	for ( i = 0 ; i < 10 ; i++ )
 		cout<<iarr[i]<<"\t";
 
 	quicksort ( iarr, 0, 9 ) ;
@@ -35,13 +35,13 @@ void main( )
 	cout<<"\n\n";
 	cout<<"Integer Array after sorting:\n";
 
-	for ( i = 0 ; i <= 9 ; i++ )
+	for ( i = 0 ; i < 10 ; i++ )
 		cout<<iarr[i]<<"\t";
 
 	double darr[10] = { 11.3, 2.6, 9.6, 13.1, 57.98, 25.4, 17.4, 1.8, 90.90, 3.1 } ;
 	cout<<"\n\n\nDouble Array before sorting:\n";
 
-	for ( i = 0 ; i <= 9 ; i++ )
+	for ( i = 0 ; i < 10 ; i++ )
 		cout<<darr[i]<<"\t";
 
 	quicksort ( darr, 0, 9 ) ;
@@ -49,7 +49,7 @@ void main( )
 	cout<<"\n\n";
 	cout<<"Double Array after sorting:\n";
 
-	for ( i = 0 ; i <= 9 ; i++ )
+	for ( i = 0 ; i < 10 ; i++ )
 		cout<<darr[i]<<"\t";
 
 	getch();

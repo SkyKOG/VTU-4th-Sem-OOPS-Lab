@@ -24,7 +24,7 @@ class EMPLOYEE {
 
 int main()
 {   	
-	system("clear");
+	system("cls");
 	EMPLOYEE emp[20];
 	int n;
 	cout<<"Enter Number Of Employees : ";
@@ -41,8 +41,8 @@ int main()
 		emp[i].display();
 	}
 	
-	return 0;
 	getch();
+	return 0;
 }
 
 void EMPLOYEE::accept()

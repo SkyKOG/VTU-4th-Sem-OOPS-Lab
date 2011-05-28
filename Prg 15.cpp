@@ -112,9 +112,10 @@ void EXPRESSION::convert(char inf[20],char post[20])
 		case '*':
 		case '$':while(stpri(stack[top])>inpri(ch))
 					 post[j++]=pop();
-			push(ch);
-			break;
+				push(ch);
+				break;
 		default:post[j++]=ch;
+				break;
 		}
 	}
 	while(stack[top]!='#')
@@ -147,4 +148,3 @@ License
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-

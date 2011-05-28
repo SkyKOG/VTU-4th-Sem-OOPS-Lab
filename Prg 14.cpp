@@ -72,9 +72,9 @@ void BIN_TREE::insert(int ele)
 
 void BIN_TREE::insertmain(struct node **q,int ele)
 {
-	if(*q==NULL)
+	if((*q)==NULL)
 	{
-		*q=new node;
+		(*q)=new node;
 		(*q)->l=NULL;
 		(*q)->r=NULL;
 		(*q)->data=ele;

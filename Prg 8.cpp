@@ -119,7 +119,7 @@ MATRIX MATRIX::operator +(MATRIX m2)
 	return m;
 }
 
-MATRIX MATRIX::operator -(MATRIX m2)
+MATRIX MATRIX::operator -(MATRIX m2)     
 {
 	MATRIX m;
 	m.row=row;
